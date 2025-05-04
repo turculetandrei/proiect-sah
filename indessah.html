@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tabla de Șah - Simplă</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="p-6">
+    <h1 class="text-3xl font-bold mb-4">Tabla de Șah</h1>
+
+    <div class="mb-4 flex gap-2">
+      <input id="numeInput" type="text" placeholder="Nume jucator" class="border px-3 py-2 rounded" />
+      <button onclick="afiseazaNumele()" class="bg-blue-500 text-white px-4 py-2 rounded">Seteaza numele</button>
+    </div>
+
+    <p class="mb-4 text-lg font-semibold" id="numeAfisat"></p>
+
+    <div id="tabla" class="inline-block"></div>
+
+    <button onclick="resetTabla()" class="mt-4 bg-red-500 text-white px-4 py-2 rounded">Reseteaza tabla</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
