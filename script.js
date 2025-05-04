@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function resetTabla() {
 
   
@@ -69,3 +70,9 @@ function afiseazaNumele() {
 }
 
 window.onload = creeazaTabla;
+=======
+//random bhygujih dcfvjhggvjh
+//dasdasdasd
+//adssad
+//asdads
+>>>>>>> 995fdf04c926822ebc80ecce0c08be7317014e94
