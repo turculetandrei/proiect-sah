@@ -111,6 +111,7 @@ function mousePressed() {
   }
 }
 
+
 function keyPressed() {
   if (gameMode === '') return;
   if (keyCode === BACKSPACE) {
@@ -126,5 +127,5 @@ function keyPressed() {
       player1Name += key;
     }
   }
-  
+
 }
