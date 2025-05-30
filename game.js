@@ -28,7 +28,7 @@ function draw() {
   textSize(32);
   text("Mod Joc", width / 2, 70);
   textSize(24);
-
+  
 
   // Buton PvP
   drawButton(150, 120, 150, 50, "Player vs Player", gameMode === 'pvp');
@@ -55,7 +55,6 @@ function setGradient(x, y, w, h, c1, c2, axis) {
     stroke(c);
     line(x, i, x + w, i);
   }
-  
 }
 
 // Functie pentru butoane moderne
@@ -126,4 +125,3 @@ function keyPressed() {
     }
   }
 }
-
