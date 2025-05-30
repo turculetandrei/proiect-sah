@@ -17,6 +17,7 @@ function setup() {
   textSize(24);
 }
 
+
 function draw() {
   // Fundal gradient
   setGradient(0, 0, width, height, color(58,123,213), color(0,210,255), 1);
