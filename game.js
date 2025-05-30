@@ -28,6 +28,7 @@ function draw() {
   textSize(32);
   text("Mod Joc", width / 2, 70);
   textSize(24);
+  
 
   // Buton PvP
   drawButton(150, 120, 150, 50, "Player vs Player", gameMode === 'pvp');
