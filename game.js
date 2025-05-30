@@ -17,6 +17,7 @@ function setup() {
   textSize(24);
 }
 
+
 function draw() {
   // Fundal gradient
   setGradient(0, 0, width, height, color(58,123,213), color(0,210,255), 1);
@@ -27,6 +28,7 @@ function draw() {
   textSize(32);
   text("Mod Joc", width / 2, 70);
   textSize(24);
+  
 
   // Buton PvP
   drawButton(150, 120, 150, 50, "Player vs Player", gameMode === 'pvp');
