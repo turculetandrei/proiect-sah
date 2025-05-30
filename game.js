@@ -55,7 +55,7 @@ function setGradient(x, y, w, h, c1, c2, axis) {
     stroke(c);
     line(x, i, x + w, i);
   }
-  
+
 }
 
 // Functie pentru butoane moderne

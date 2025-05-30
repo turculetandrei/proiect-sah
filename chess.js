@@ -22,6 +22,7 @@ function draw() {
   chessBoard.draw();
 }
 
+
 function mousePressed() {
   chessBoard.handleClick(mouseX, mouseY);
 }
@@ -45,6 +46,7 @@ class ChessPiece {
     fill(this.color === "white" ? 255 : 0);
     text(symbol, x + squareSize / 2, y + squareSize / 2);
   }
+  
 
   getSymbol() {
     const symbols = {
